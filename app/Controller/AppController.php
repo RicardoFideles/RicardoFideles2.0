@@ -40,7 +40,7 @@ class AppController extends Controller {
      * 
      * @var array
      */
-    public $helpers = array('Html', 'Form', 'Session', 'Time', 'Text', 'Number', 'Link','Cache', 'EasyCompressor.EasyCompressor', 'RenderBody', 'Thumbnail', 'Teste', 'AssetCompress.AssetCompress');
+    public $helpers = array('Html', 'Form', 'Session', 'Time', 'Text', 'Number', 'Link','Cache', 'RenderBody', 'Thumbnail', 'Teste', 'AssetCompress.AssetCompress');
     
     /**
      * Verifica se está dentro de um prefixo

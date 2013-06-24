@@ -73,7 +73,6 @@ Cache::config('default', array('engine' => 'File'));
  */
  
 CakePlugin::load('Tidy');
-CakePlugin::load(array('EasyCompressor' => array('routes' => true)));
 CakePlugin::load('AssetCompress', array('bootstrap' => true));
 
 /**
