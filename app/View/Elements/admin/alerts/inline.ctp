@@ -1,0 +1,1 @@
+<div class="loginerror"><p><?php echo $this->Html->tag('p', $message) ?></p></div>
